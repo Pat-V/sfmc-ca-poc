@@ -1,7 +1,7 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "https://image.news.email.sanofi/lib/fe34117175640475751c75/m/1/dfb566dc-2c61-4a6b-a6d6-d9c2f3028cbd.png",
+    "icon": "https://pat-v.github.io/sfmc-ca-poc/phone-call/icon.png",
     "category": "custom"
   },
   "type": "REST",
