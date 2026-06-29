@@ -1,7 +1,7 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "ICON_URL_WEB_ADS",
+    "icon": "https://pat-v.github.io/sfmc-ca-poc/web-ads/icon.png",
     "category": "custom"
   },
   "type": "REST",
@@ -16,7 +16,7 @@
       "inArguments": [
         { "contactKey": "{{Contact.Key}}" }
       ],
-      "url": "https://EXAMPLE.github.io/REPO/web-ads/execute",
+      "url": "https://pat-v.github.io/sfmc-ca-poc/web-ads/execute",
       "verb": "POST",
       "useJwt": false,
       "timeout": 10000
@@ -27,7 +27,7 @@
   },
   "userInterfaces": {
     "configModal": {
-      "url": "https://EXAMPLE.github.io/REPO/web-ads/ui",
+      "url": "https://pat-v.github.io/sfmc-ca-poc/web-ads/ui",
       "height": 400,
       "width": 600
     }
