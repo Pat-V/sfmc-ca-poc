@@ -27,7 +27,7 @@
   },
   "userInterfaces": {
     "configModal": {
-      "url": "https://EXAMPLE.github.io/REPO/phone-call/ui",
+      "url": "https://pat-v.github.io/sfmc-ca-poc/phone-call/ui",
       "height": 400,
       "width": 600
     }
