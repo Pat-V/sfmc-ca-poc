@@ -23,7 +23,7 @@
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "REPLACE_WITH_PHONE_CALL_PACKAGE_UNIQUE_KEY"
+    "applicationExtensionKey": "fd2af5d5-a3ee-4180-96d9-1f7b0a5e2c59"
   },
   "userInterfaces": {
     "configModal": {
