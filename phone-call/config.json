@@ -1,1 +1,36 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "ICON_URL_PHONE_CALL",
+    "category": "custom"
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "Appel Telephonique",
+      "description": "Notifie un delegue medical pour qu'il appelle le HCP (PoC palette)"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [
+        { "contactKey": "{{Contact.Key}}" }
+      ],
+      "url": "https://EXAMPLE.github.io/REPO/phone-call/execute",
+      "verb": "POST",
+      "useJwt": false,
+      "timeout": 10000
+    }
+  },
+  "configurationArguments": {
+    "applicationExtensionKey": "REPLACE_WITH_PHONE_CALL_PACKAGE_UNIQUE_KEY"
+  },
+  "userInterfaces": {
+    "configModal": {
+      "url": "https://EXAMPLE.github.io/REPO/phone-call/ui",
+      "height": 400,
+      "width": 600
+    }
+  }
+}
 
